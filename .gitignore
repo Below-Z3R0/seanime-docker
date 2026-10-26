@@ -1,0 +1,7 @@
+data/
+anime/
+downloads/
+*.tar.gz
+*.log
+.env
+.DS_Store
