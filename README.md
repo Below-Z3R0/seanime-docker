@@ -27,12 +27,12 @@ El seed está saneado: sin cuentas, sin credenciales de debrid, sin biblioteca.
 ```bash
 git clone --depth 1 --branch v3.10.4 \
   https://github.com/5rahim/seanime.git \
-  ~/Documents/Github/seanime-src
+  ~/Documents/Github/Forks/seanime-src
 ```
 
 ## Build
 
-El compose espera el source en `../../Github/seanime-src` relativo al proyecto. Si lo tenés en otro lado:
+El compose espera el source en `../../Github/Forks/seanime-src` relativo al proyecto. Si lo tenés en otro lado:
 
 ```bash
 export SEANIME_SRC=~/ruta/a/seanime-src
@@ -52,7 +52,7 @@ docker buildx build \
   --build-context seed=./seed \
   -f Dockerfile \
   -t seanime:3.10.4 \
-  ~/Documents/Github/seanime-src
+  ~/Documents/Github/Forks/seanime-src
 ```
 
 ## Levantar

@@ -1,7 +1,7 @@
 services:
   seanime:
     build:
-      context: ${SEANIME_SRC:-../../Github/seanime-src}
+      context: ${SEANIME_SRC:-../../Github/Forks/seanime-src}
       dockerfile: ${SEANIME_DOCKERFILE:-../../Docker/seanime/Dockerfile}
       additional_contexts:
         seed: ./seed
